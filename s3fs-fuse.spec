@@ -4,7 +4,7 @@
 #
 Name     : s3fs-fuse
 Version  : 1.85
-Release  : 2
+Release  : 3
 URL      : https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.85.tar.gz
 Source0  : https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.85.tar.gz
 Summary  : FUSE-based file system backed by Amazon S3
