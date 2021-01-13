@@ -1,8 +1,5 @@
-Configure miss: attr/xattr.h usability
-Configure miss: attr/xattr.h presence
+Configure miss: g++ option to enable C++11 features
 Configure miss: attr/xattr.h
-Configure miss: sys/extattr.h usability
-Configure miss: sys/extattr.h presence
 Configure miss: sys/extattr.h
 Configure miss: s3fs build with nettle(GnuTLS)
 Configure miss: s3fs build with OpenSSL
