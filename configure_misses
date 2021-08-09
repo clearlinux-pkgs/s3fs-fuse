@@ -1,7 +1,7 @@
-Configure miss: g++ option to enable C++11 features
 Configure miss: attr/xattr.h
-Configure miss: sys/extattr.h
-Configure miss: s3fs build with nettle(GnuTLS)
-Configure miss: s3fs build with OpenSSL
+Configure miss: g++ option to enable C++11 features
 Configure miss: s3fs build with GnuTLS
 Configure miss: s3fs build with NSS
+Configure miss: s3fs build with OpenSSL
+Configure miss: s3fs build with nettle(GnuTLS)
+Configure miss: sys/extattr.h
