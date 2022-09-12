@@ -4,7 +4,7 @@
 #
 Name     : s3fs-fuse
 Version  : 1.91
-Release  : 8
+Release  : 9
 URL      : https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.91/s3fs-fuse-1.91.tar.gz
 Source0  : https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.91/s3fs-fuse-1.91.tar.gz
 Summary  : No detailed summary available
