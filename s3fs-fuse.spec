@@ -5,7 +5,7 @@
 #
 Name     : s3fs-fuse
 Version  : 1.92
-Release  : 10
+Release  : 11
 URL      : https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.92/s3fs-fuse-1.92.tar.gz
 Source0  : https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.92/s3fs-fuse-1.92.tar.gz
 Summary  : No detailed summary available
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684874226
+export SOURCE_DATE_EPOCH=1685509043
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -101,7 +101,7 @@ cd ../buildavx2;
 make %{?_smp_mflags} check || : || :
 
 %install
-export SOURCE_DATE_EPOCH=1684874226
+export SOURCE_DATE_EPOCH=1685509043
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/s3fs-fuse
 cp %{_builddir}/s3fs-fuse-%{version}/COPYING %{buildroot}/usr/share/package-licenses/s3fs-fuse/06877624ea5c77efe3b7e39b0f909eda6e25a4ec || :
