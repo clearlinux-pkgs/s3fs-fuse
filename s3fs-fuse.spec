@@ -4,10 +4,10 @@
 # Using build pattern: autogen
 #
 Name     : s3fs-fuse
-Version  : 1.92
-Release  : 11
-URL      : https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.92/s3fs-fuse-1.92.tar.gz
-Source0  : https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.92/s3fs-fuse-1.92.tar.gz
+Version  : 1.93
+Release  : 12
+URL      : https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.93/s3fs-fuse-1.93.tar.gz
+Source0  : https://github.com/s3fs-fuse/s3fs-fuse/archive/v1.93/s3fs-fuse-1.93.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
@@ -59,10 +59,10 @@ man components for the s3fs-fuse package.
 
 
 %prep
-%setup -q -n s3fs-fuse-1.92
-cd %{_builddir}/s3fs-fuse-1.92
+%setup -q -n s3fs-fuse-1.93
+cd %{_builddir}/s3fs-fuse-1.93
 pushd ..
-cp -a s3fs-fuse-1.92 buildavx2
+cp -a s3fs-fuse-1.93 buildavx2
 popd
 
 %build
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685509043
+export SOURCE_DATE_EPOCH=1692219311
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -101,7 +101,7 @@ cd ../buildavx2;
 make %{?_smp_mflags} check || : || :
 
 %install
-export SOURCE_DATE_EPOCH=1685509043
+export SOURCE_DATE_EPOCH=1692219311
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/s3fs-fuse
 cp %{_builddir}/s3fs-fuse-%{version}/COPYING %{buildroot}/usr/share/package-licenses/s3fs-fuse/06877624ea5c77efe3b7e39b0f909eda6e25a4ec || :
